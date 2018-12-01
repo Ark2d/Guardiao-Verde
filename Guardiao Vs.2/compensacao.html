@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+  <title>Guardião Verde</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/logotitle.png" rel="icon">
+  <link href="img/logotitle.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Ruda:400,900,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+  <link href="lib/hover/hoverex-all.css" rel="stylesheet">
+  <link href="lib/jetmenu/jetmenu.css" rel="stylesheet">
+  <link href="lib/owl-carousel/owl-carousel.css" rel="stylesheet">
+    <link href="assets/js/lib/datatables.min.css" rel="stylesheet">
+    <link href="assets/js/lib/datatables.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/colors/blue.css">
+</head>
+
+<body>
+  
+
+  <header class="header">
+    <div class="container">
+      <div class="site-header clearfix">
+        <div class="col-lg-3 col-md-3 col-sm-12 title-area">
+          <div class="site-title" id="title">
+            <a href="index.html" title="">
+                <img src="img/logoOK%20(2).png" alt="Logo">
+             <!-- <h4>GUARDIÃO <span>VERDE</span></h4>-->
+            </a>
+          </div>
+        </div>
+        <!-- title area -->
+        <div class="col-lg-9 col-md-12 col-sm-12">
+          <div id="nav" class="right">
+            <div class="container clearfix">
+              <ul id="jetmenu" class="jetmenu blue">
+                <li class="active"><a href="index.html">Início</a>
+                </li>
+                <li><a href="#">Páginas</a>
+                  <ul class="dropdown">
+                    <li><a href="licencas.html">Licenças ambientais</a></li>
+                    <li><a href="dicas.html">Dicas</a></li>
+                  </ul>
+                </li>
+                <li><a href="compensacao.html">Compensações Ambientais</a>
+                </li>
+                <li><a href="#">Projeto</a>
+                  <ul class="dropdown">
+                    <li><a href="sobre-projeto.html">O que é?</a></li>
+                    <li><a href="sobre-time.html">Membros</a></li>
+                  </ul>
+                </li>
+              
+              </ul>
+            </div>
+          </div>
+          <!-- nav -->
+        </div>
+        <!-- title area -->
+      </div>
+      <!-- site header -->
+    </div>
+    <!-- end container -->
+  </header>
+  <!-- end header -->
+
+  <section class="post-wrapper-top">
+    <div class="container">
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+        <ul class="breadcrumb">
+          <li><a href="index.html">Guardião Verde</a></li>
+          <li>Compensações Ambientais</li>
+        </ul>
+        <h2>COMPENSAÇÕES AMBIENTAIS</h2>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+      </div>
+    </div>
+  </section>
+  <!-- end post-wrapper-top -->
+
+  <section class="section1">
+    <div class="container clearfix">
+      <div class="content col-lg-12 col-md-12 col-sm-12 clearfix">        
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+            <div class="content mt-3">
+            <div class="animated fadeIn">
+                <div class="row">
+
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-body">
+                  <table id="table1" class="table table-striped table-bordered">
+                    <thead>
+                      <tr>
+                        <th>NºProc.</th>
+                        <th>Interessado</th>
+                        <th>End. Atv. Lic.</th>
+                        <th>Munic. Atv. Lic.</th>
+                        <th>Nº Licença</th>
+                        <th>Tipologia</th>
+                        <th>Data</th>
+                        <th>Validade</th>
+    
+                      </tr>
+                    </thead>
+                    <tbody>
+                     
+                     
+                    </tbody>
+                  </table>
+                        </div>
+                    </div>
+                </div>
+
+
+                </div>
+            </div><!-- .animated -->
+        </div><!-- .content -->
+            
+            
+        </div>
+        <!-- end col-6 -->
+      </div>
+    </div>
+    <!-- end container -->
+  </section>
+  <!-- end section 1 -->
+
+    <!-- end container -->
+
+    <div class="copyrights">
+      <div class="container">
+        <div class="col-lg-6 col-md-6 col-sm-12 columns footer-left">
+          <p>Portal Guardião Verde.</p>
+          <div class="credits">
+          </div>
+        </div>
+        <!-- end widget -->
+        <div class="col-lg-6 col-md-6 col-sm-12 columns text-right">
+          <div class="footer-menu right">
+            <ul class="menu">
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="sobre-projeto.html">Sobre nós</a></li>
+              <li><a href="licencas.html">Licenças Ambientais</a></li>
+              <li><a href="compensacao.html">Compensações</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- end large-6 -->
+      </div>
+      <!-- end container -->
+    </div>
+ 
+    
+    <script type="text/javascript">
+  
+        var oReq = new XMLHttpRequest();
+        oReq.open("GET", "Tabela Unificada.xls", true);
+        oReq.responseType = "arraybuffer";
+        
+        oReq.onload = function(e) {
+            var arraybuffer = oReq.response;
+
+            /* convert data to binary string */
+            var data = new Uint8Array(arraybuffer);
+            var arr = new Array();
+            for (var i = 0; i != data.length; ++i) arr[i] = String.fromCharCode(data[i]);
+            var bstr = arr.join("");
+
+            /* Call XLSX */
+            var workbook = XLSX.read(bstr, {
+                type: "binary"
+            });
+
+            /* DO SOMETHING WITH workbook HERE */
+            var first_sheet_name = workbook.SheetNames[0];
+            /* Get worksheet */
+            var worksheet = workbook.Sheets[first_sheet_name];
+            
+            a = XLSX.utils.sheet_to_json(worksheet);
+            console.log(a[0]['INTERESSADO']);
+            
+           
+            $('#table1').DataTable({
+              "language": {
+                    "search": "Pesquisar",
+                    "lengthMenu": "Mostrando  _MENU_ registros",
+                    "info": "Mostrando página _PAGE_ de _PAGES_",
+                    "infoEmpty": "Mostrando página 0 de 0",
+                    "infoFiltered": "(Filtrado de _MAX_ entradas)",
+                    "loadingRecords": "Carregando...",
+                    "processing": "Processando...",
+                    "zeroRecords": "Nenhum resultado encontrado",
+                    "paginate": {
+                        "first":"Primeiro",
+                        "previous":"Anterior",
+                        "next": "Seguinte",
+                        "last": "Ultimo"
+                    }
+                },
+              "data":a,
+              "columns": [
+                {"data": "Nº DO PROCESSO" , 'width': '5%'},
+                {"data": "INTERESSADO", 'width': '15%'},
+                {"data": "ENDEREÇO DA ATIVIDADE LICENCIADA", 'width': '15%'},
+                {"data": "MUNICÍPIO DA ATIVIDADE LICENCIADA", 'width': '15%'},
+                {"data": "NÚMERO DA LICENÇA", 'width': '5%'},
+                {"data": "TIPOLOGIA DA LICENÇA LP / LI / LO / LAU", 'width': '5%'},
+                {"data": "DATA DA SOLICITAÇÃO DA LICENÇA/ RENOVAÇÃO", 'width': '5%'},
+                {"data": "VALIDADE DA LICENÇA", 'width': '5%'},
+
+              ],
+              "select": {
+                "style":    'os',
+                "blurable": true
+                },
+                "order": [[ 0, "asc" ]],
+                "select": true,
+            "buttons": [
+                {
+                    "extend": 'collection',
+                    "text": 'Export',
+                    "buttons": [
+                        'copy',
+                        'excel',
+                        'csv',
+                        'pdf',
+                        'print'
+                    ]
+                }
+        ]
+        });
+                  
+          
+        }
+        
+        oReq.send();
+    </script>
+    
+   
+ 
+   
+    <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/isotope/isotope.min.js"></script>
+  <script src="lib/hover/hoverdir.js"></script>
+  <script src="lib/hover/hoverex.min.js"></script>
+  <script src="lib/unveil-effects/unveil-effects.js"></script>
+  <script src="lib/owl-carousel/owl-carousel.js"></script>
+  <script src="lib/jetmenu/jetmenu.js"></script>
+  <script src="lib/animate-enhanced/animate-enhanced.min.js"></script>
+  <script src="lib/jigowatt/jigowatt.js"></script>
+  <script src="lib/easypiechart/easypiechart.min.js"></script>
+  <script src="assets/js/lib/datatables.min.js"></script>
+  <script src="assets/js/lib/datatables.js"></script>
+  <script src="assets/js/xlsx.full.min.js"></script>
+    
+    
+    
+   
+  
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+    
+</body>
+</html>
